@@ -1,0 +1,23 @@
+{
+  "name": "ai-agent",
+  "version": "1.0.0",
+  "description": "- Buidling an ai agent to do something",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "got": "^14.4.5",
+    "lowdb": "^7.0.1",
+    "openai": "^4.75.0",
+    "ora": "^8.1.1",
+    "terminal-image": "^3.0.0",
+    "typescript": "^5.7.2",
+    "uuid": "^11.0.3",
+    "zod": "^3.23.8"
+  }
+}
