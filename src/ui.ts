@@ -1,6 +1,8 @@
 import ora from "ora";
 import type { AIMessage } from "../types";
 
+// Terminal UI design
+
 export const showLoader = (text: string) => {
   const spinner = ora({
     text,
