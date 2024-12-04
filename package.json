@@ -1,10 +1,11 @@
 {
   "name": "ai-agent",
   "version": "1.0.0",
+  "module": "index.ts",
+  "type": "module",
   "description": "- Buidling an ai agent to do something",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx tsx index.ts"
   },
   "keywords": [],
   "author": "",
@@ -16,8 +17,11 @@
     "openai": "^4.75.0",
     "ora": "^8.1.1",
     "terminal-image": "^3.0.0",
-    "typescript": "^5.7.2",
+    "tsc": "^2.0.4",
     "uuid": "^11.0.3",
     "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
   }
 }
